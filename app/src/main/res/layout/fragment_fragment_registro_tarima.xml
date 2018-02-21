@@ -4,7 +4,8 @@
     android:id="@+id/frag_registro_nueva_tarima"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.eisne.inventror.FragmentRegistroTarima">
+    android:layout_gravity="left|right|center_horizontal|fill_horizontal"
+    tools:context="com.example.eisne.inventror.Fragments.FragmentRegistroTarima">
 
     <!-- TODO: Update blank fragment layout -->
 
@@ -12,30 +13,44 @@
         android:id="@+id/layoutNuevaTarima"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:gravity="fill_vertical"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:text="@string/agregar_una_tarima"
             android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
-        <EditText
-            android:id="@+id/editTextNombreTarima"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Nombre de la Tarima"
-            android:inputType="textMultiLine" />
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextNombreTarima"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:hint="@string/nombre_de_la_tarima"
+                android:inputType="textMultiLine" />
+
+
+        </LinearLayout>
+
 
         <EditText
             android:id="@+id/editTextFechaTarima"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="Fecha de Creación"
+            android:hint="@string/fecha_de_creaci_n"
             android:inputType="date" />
 
         <Button
@@ -43,6 +58,7 @@
             style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:drawableTop="@mipmap/ic_pallet"
             android:text="@string/agregar_tarima" />
     </LinearLayout>

@@ -15,4 +15,6 @@
     <string name="agregar_una_tarima">Agregar una Tarima</string>
     <string name="todo">TODO</string>
     <string name="agregar_tarima">Agregar Tarima</string>
+    <string name="fecha_de_creaci_n">Fecha de Creación</string>
+    <string name="nombre_de_la_tarima">Nombre de la Tarima</string>
 </resources>

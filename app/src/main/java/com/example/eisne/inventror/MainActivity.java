@@ -14,9 +14,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.app.FragmentManager;
 
+import com.example.eisne.inventror.Fragments.BlankFragment;
 import com.example.eisne.inventror.Interfaces.IFragments;
 
 public class MainActivity extends AppCompatActivity
