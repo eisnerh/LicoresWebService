@@ -1,0 +1,50 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frag_registro_nueva_tarima"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eisne.inventror.FragmentRegistroTarima">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/layoutNuevaTarima"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/agregar_una_tarima"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+        <EditText
+            android:id="@+id/editTextNombreTarima"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nombre de la Tarima"
+            android:inputType="textMultiLine" />
+
+        <EditText
+            android:id="@+id/editTextFechaTarima"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Fecha de Creación"
+            android:inputType="date" />
+
+        <Button
+            android:id="@+id/btnAgregarNuevaTarima"
+            style="@android:style/Widget.Material.Light.Button.Borderless.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/ic_pallet"
+            android:text="@string/agregar_tarima" />
+    </LinearLayout>
+
+</FrameLayout>

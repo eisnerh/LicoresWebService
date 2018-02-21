@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Inventror</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="inventarios">Inventarios</string>
+    <string name="email">elopez21334@fifco.com</string>
+    <string name="inventario">Inventario</string>
+    <string name="registro_de_una_nueva_tarima">Registro de una Nueva Tarima</string>
+    <string name="agregar_una_tarima">Agregar una Tarima</string>
+    <string name="todo">TODO</string>
+    <string name="agregar_tarima">Agregar Tarima</string>
+</resources>
